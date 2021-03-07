@@ -139,7 +139,7 @@ nav a:focus {
 }
 
 .banner-image {
-  height: auto;
+  max-height: auto;
   margin: 0 auto;
   width: 100%;
   margin-bottom: 10px;
@@ -252,6 +252,7 @@ nav a:focus {
   }
 
   .our-location-img {
+    max-height: 100%;
     display: block;
     max-height: 461px;
     margin: auto;

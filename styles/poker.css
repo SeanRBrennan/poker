@@ -139,10 +139,9 @@ nav a:focus {
 }
 
 .banner-image {
-  max-height: auto;
+  max-height: 293px;
   margin: 0 auto;
   width: 100%;
-  margin-bottom: 10px;
   position: relative;
   min-height: 1px;
   border-radius: 15px;
@@ -179,6 +178,7 @@ nav a:focus {
 }
 
 .our-location-img {
+  max-height: 408px;
   border-radius: 50px;
   width: 100%;
 }
@@ -252,7 +252,6 @@ nav a:focus {
   }
 
   .our-location-img {
-    max-height: 100%;
     display: block;
     max-height: 461px;
     margin: auto;

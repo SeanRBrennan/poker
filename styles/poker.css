@@ -6,8 +6,8 @@
 
 body {
   margin: 0;
-  font-size: 14px;
-  line-height: 1.8em;
+  font-size: 16px;
+  line-height: 18px;
   background-color: #fefeff;
   /* background-color:   rgb(61, 134, 89); */
   font-family: "Oswald", sans-serif;
@@ -31,7 +31,7 @@ header {
 
 h1 {
   font-family: inherit;
-  font-size: 2rem;
+  font-size: 36px;
   font-weight: 600;
   margin: 0;
 }
@@ -42,6 +42,10 @@ h2 {
 
 div {
   display: block;
+}
+
+a {
+  font-size: 24px;
 }
 
 strong {
@@ -70,7 +74,7 @@ footer {
 }
 
 .subtitle {
-  font-size: 1rem;
+  font-size: 24px;
   margin: 0;
   margin-top: 0.8rem;
   font-weight: 300;
@@ -109,7 +113,6 @@ nav a:focus {
 @media (max-width: 675px) {
   nav ul {
     flex-direction: column;
-    font-size: 1.5em;
   }
 
   nav li {
@@ -141,6 +144,7 @@ nav a:focus {
 
 .banner-image {
   margin: 0 auto;
+  margin-bottom: 10px;
   width: 100%;
   position: relative;
   min-height: 1px;
@@ -206,17 +210,6 @@ nav a:focus {
 }
 
 @media (min-width: 600px) and (max-width: 2000px) {
-  h1 {
-    font-size: 2em;
-  }
-
-  nav ul {
-    font-size: 1.5em;
-  }
-
-  .subtitle {
-    font-size: 1.2em;
-  }
 
   #banner {
     padding: 0 25px;
@@ -232,6 +225,10 @@ nav a:focus {
     display: flex;
     object-fit: cover;
     margin: 1em;
+  }
+
+  .banner-image {
+    margin-bottom: 0;
   }
 
   .content-container {
@@ -290,6 +287,10 @@ main {
   background: white;
 }
 
+.card-image {
+  max-height: 200px;
+}
+
 .players:hover {
   transform: scale(1.1);
   transition: transform 0.3s;
@@ -315,7 +316,7 @@ main {
 }
 
 .player-info {
-  font-size: 1.2em;
+  font-size: 18px;
   display: flex;
   flex-flow: wrap;
   justify-content: space-evenly;
